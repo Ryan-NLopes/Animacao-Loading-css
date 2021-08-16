@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+/*Estilo do corpo da página*/
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+img{
+    /* Tamanho da Imagem */
+    width: 80px;
+    height: 80px;
+    /* chamando a animação */
+    animation: loading 1s linear infinite;
+}
+
+/*Configurando a Animação*/
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
