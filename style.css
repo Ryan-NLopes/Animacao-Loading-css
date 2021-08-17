@@ -17,10 +17,10 @@ body{
 
 img{
     /* Tamanho da Imagem */
-    width: 80px;
-    height: 80px;
+    width: 500px;
+    height: 500px;
     /* chamando a animação */
-    animation: loading 1s linear infinite;
+    animation: loading 1s  infinite;
 }
 
 /*Configurando a Animação*/
