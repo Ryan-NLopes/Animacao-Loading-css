@@ -17,8 +17,8 @@ body{
 
 img{
     /* Tamanho da Imagem */
-    width: 500px;
-    height: 500px;
+    width: 50px;
+    height: 50px;
     /* chamando a animação */
     animation: loading 1s  infinite;
 }
